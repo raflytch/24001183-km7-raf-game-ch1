@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafly - BCR - Binar Car Rental</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="background-custom">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg py-3">
+        <div class="container">
+          <a class="navbar-brand brand-custom text-white fw-bold" href="#"></a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <img src="./public/assets/img/toggler_icon.svg" />
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">
+                BCR
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto gap-2">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#services"
+                    >Our Services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#why-us">Why Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonial">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white custom-button rounded px-3"
+                    href="#"
+                    >Register</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <div class="container px-4 py-5" id="hero">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-12 col-lg-6">
+            <img
+              src="./public/assets/img/img_car.png"
+              class="d-block mx-lg-auto img-fluid w-100"
+              alt="Car Image"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-12 col-lg-6">
+            <h1 class="fs-1 fw-bold text-body-emphasis lh-1 mb-4">
+              Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)
+            </h1>
+            <p class="fs-6 text-black fw-normal">
+              Selamat datang di Binar Car Rental. Kami menyediakan mobil
+              kualitas terbaik dengan harga terjangkau. Selalu siap melayani
+              kebutuhanmu untuk sewa mobil selama 24 jam.
+            </p>
+            <button type="button" class="btn custom-button text-white me-md-2">
+              Mulai Sewa Mobil
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="px-2">
+      <!-- Service Section -->
+      <section>
+        <div class="container px-4 py-5" id="services">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
+              <img
+                src="./public/assets/img/img_service.png"
+                class="d-block mx-lg-auto img-fluid w-100"
+                alt="Bootstrap Themes"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+              <h1 class="fs-2 fw-bold text-body-emphasis lh-1 mb-4">
+                Best Car Rental for any kind of trip in (Lokasimu)!
+              </h1>
+              <p class="fs-6 text-black fw-normal">
+                Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga
+                lebih murah dibandingkan yang lain, kondisi mobil baru, serta
+                kualitas pelayanan terbaik untuk perjalanan wisata, bisnis,
+                wedding, meeting, dll.
+              </p>
+              <ul class="list-custom-bullets">
+                <li class="fs-6 text-black fw-normal">
+                  Sewa Mobil Dengan Supir di Bali 12 Jam
+                </li>
+                <li class="fs-6 text-black fw-normal">
+                  Sewa Mobil Lepas Kunci di Bali 24 Jam
+                </li>
+                <li class="fs-6 text-black fw-normal">
+                  Sewa Mobil Jangka Panjang Bulanan
+                </li>
+                <li class="fs-6 text-black fw-normal">
+                  Gratis Antar - Jemput Mobil di Bandara
+                </li>
+                <li class="fs-6 text-black fw-normal">
+                  Layanan Airport Transfer / Drop In Out
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Us Section -->
+      <section class="container my-5" id="why-us">
+        <h1 class="text-center text-md-start mb-4 mb-md-3 fw-bold">Why Us?</h1>
+        <p class="text-center text-md-start mb-4 mb-md-3">
+          Mengapa harus pilih Binar Car Rental?
+        </p>
+        <div class="container-lg px-0">
+          <div class="row gy-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-md-6 col-11">
+              <div class="card p-2">
+                <div class="card-body">
+                  <img
+                    class="mb-3"
+                    src="./public/assets/img/icon_complete.svg"
+                    alt="Icon Complete"
+                  />
+                  <h5 class="card-title mb-3">Mobil Lengkap</h5>
+                  <p class="card-text">
+                    Tersedia banyak pilihan mobil, kondisi masih baru, bersih
+                    dan terawat
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-11">
+              <div class="card p-2">
+                <div class="card-body">
+                  <img
+                    class="mb-3"
+                    src="./public/assets/img/icon_price.svg"
+                    alt="Icon Price"
+                  />
+                  <h5 class="card-title mb-3">Harga Murah</h5>
+                  <p class="card-text">
+                    Harga murah dan bersaing, bisa bandingkan harga kami dengan
+                    rental mobil lain
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-11">
+              <div class="card p-2">
+                <div class="card-body">
+                  <img
+                    class="mb-3"
+                    src="./public/assets/img/icon_24hrs.svg"
+                    alt="Icon 24 Hours"
+                  />
+                  <h5 class="card-title mb-3">Layanan 24 Jam</h5>
+                  <p class="card-text">
+                    Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami
+                    juga tersedia di akhir minggu
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-11">
+              <div class="card p-2">
+                <div class="card-body">
+                  <img
+                    class="mb-3"
+                    src="/public/assets/img/icon_professional.svg"
+                    alt="Icon Professional"
+                  />
+                  <h5 class="card-title mb-3">Sopir Profesional</h5>
+                  <p class="card-text">
+                    Sopir yang profesional, berpengalaman, jujur, ramah dan
+                    selalu tepat waktu
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial Section Carousel -->
+      <section class="container" id="testimonial">
+        <div>
+          <div class="col-12 text-center py-5 mt-5">
+            <h1 class="fs-1 fw-bold text-body-emphasis lh-1 mb-4">
+              Testimonial
+            </h1>
+            <p class="fs-6 text-black fw-normal">
+              Berbagai review positif dari para pelanggan kami
+            </p>
+          </div>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div
+                  class="testimonial-section py-5 rounded-4 col-12 col-lg-10 mx-auto"
+                >
+                  <div
+                    class="testimonial-inner-controls row d-flex align-items-center justify-content-center"
+                  >
+                    <div class="col-md-12 col-lg-1 text-center mb-3 mb-lg-0">
+                      <div class="testimonial-profile">
+                        <div class="profile-image mx-auto">
+                          <img
+                            src="./public/assets/img/img_photo.png"
+                            alt="User Photo"
+                            class="img-fluid"
+                            style="max-width: 70px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                      <div class="testimonial-content px-4">
+                        <div class="d-flex mb-3">
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                        </div>
+                        <p>
+                          “Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit, sed do eiusmod lorem
+                          ipsum dolor sit amet, consectetur adipiscing elit, sed
+                          do eiusmod”
+                        </p>
+                        <p class="user-bio fw-semibold">John Dee, 32, Bromo</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  class="testimonial-section py-5 rounded-4 col-12 col-lg-10 mx-auto"
+                >
+                  <div
+                    class="row d-flex align-items-center justify-content-center"
+                  >
+                    <div class="col-md-12 col-lg-1 text-center mb-3 mb-lg-0">
+                      <div class="testimonial-profile">
+                        <div class="profile-image mx-auto">
+                          <img
+                            src="./public/assets/img/img_photo.png"
+                            alt="User Photo"
+                            class="img-fluid"
+                            style="max-width: 70px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                      <div class="testimonial-content px-4">
+                        <div class="d-flex mb-3">
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                        </div>
+                        <p>
+                          “Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit, sed do eiusmod lorem
+                          ipsum dolor sit amet, consectetur adipiscing elit, sed
+                          do eiusmod”
+                        </p>
+                        <p class="user-bio fw-semibold">John Dee, 32, Bromo</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  class="testimonial-section py-5 rounded-4 col-12 col-lg-10 mx-auto"
+                >
+                  <div
+                    class="row d-flex align-items-center justify-content-center"
+                  >
+                    <div class="col-md-12 col-lg-1 text-center mb-3 mb-lg-0">
+                      <div class="testimonial-profile">
+                        <div class="profile-image mx-auto">
+                          <img
+                            src="./public/assets/img/img_photo.png"
+                            alt="User Photo"
+                            class="img-fluid"
+                            style="max-width: 70px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                      <div class="testimonial-content px-4">
+                        <div class="d-flex mb-3">
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                          <img
+                            class="rating-stars"
+                            src="./public/assets/img/star.svg"
+                            alt="Rating Stars"
+                            width="24px"
+                          />
+                        </div>
+                        <p>
+                          “Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit, sed do eiusmod lorem
+                          ipsum dolor sit amet, consectetur adipiscing elit, sed
+                          do eiusmod”
+                        </p>
+                        <p class="user-bio fw-semibold">John Dee, 32, Bromo</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel Control -->
+            <div class="carousel-controls">
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+              >
+                <img
+                  src="./public/assets/img/Left button.svg"
+                  alt="Previous"
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                />
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+              >
+                <img
+                  src="./public/assets/img/Right button.svg"
+                  alt="Next"
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                />
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rent Car Section -->
+      <section
+        class="container my-5 rent-car-section rounded"
+        id="rent-car-section"
+      >
+        <div>
+          <div class="row text-center pt-5 pb-3 mx-auto">
+            <h1
+              class="col-10 col-lg-8 mx-auto fs-1 fw-bold text-white lh-1 mb-4 lh-base"
+            >
+              Sewa Mobil di (Lokasimu) Sekarang
+            </h1>
+            <p
+              class="col-10 col-lg-5 col-sm-8 mx-auto fs-6 text-white fw-lighter"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="col-12 pb-5">
+            <button
+              type="button"
+              class="btn custom-button text-white d-block mx-auto"
+            >
+              Mulai Sewa Mobil
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Accordion Section -->
+      <section>
+        <div class="container pb-5" id="accordion-section">
+          <div class="row flex-lg-row-reverse align-items-center g-2 py-3">
+            <div class="col-lg-6 align-self-start col-12 order-1 order-lg-2">
+              <h2 class="fw-bold mb-3">Frequently Asked Questions</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+            <div class="col-lg-6 order-2 order-lg-1">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      Apa saja syarat yang dibutuhkan?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Untuk menyewa mobil lepas kunci, Anda akan membutuhkan
+                      syarat-syarat berikut:
+                      <ul>
+                        <li>Kartu identitas resmi seperti KTP atau SIM.</li>
+                        <li>Kartu kredit atas nama penyewa sebagai jaminan.</li>
+                        <li>Surat keterangan kerja atau bukti penghasilan.</li>
+                        <li>
+                          Usia minimal 21 tahun dan memiliki SIM A yang berlaku.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Berapa hari minimal sewa mobil lepas kunci?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Minimal sewa mobil lepas kunci biasanya adalah 1 hari.
+                      Namun, beberapa penyedia mungkin menawarkan opsi sewa yang
+                      lebih fleksibel tergantung pada kebutuhan Anda.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Berapa hari sebelumnya sebaiknya booking sewa mobil?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Sebaiknya booking sewa mobil dilakukan minimal 1 minggu
+                      sebelum tanggal pemakaian. Hal ini untuk memastikan
+                      ketersediaan kendaraan dan mendapatkan harga terbaik.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      Apakah ada biaya antar-jemput?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Biaya antar-jemput dapat bervariasi tergantung pada
+                      penyedia layanan dan lokasi. Beberapa penyedia mungkin
+                      menawarkan layanan antar-jemput gratis, sementara yang
+                      lain mungkin mengenakan biaya tambahan. Pastikan untuk
+                      menanyakan hal ini saat melakukan pemesanan.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      Bagaimana jika terjadi kecelakaan?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Jika terjadi kecelakaan, segera hubungi pihak penyedia
+                      sewa mobil dan laporkan kejadian tersebut. Biasanya, Anda
+                      akan diminta untuk mengisi laporan kecelakaan dan mungkin
+                      harus menghubungi asuransi kendaraan. Pastikan untuk
+                      mengikuti prosedur yang ditetapkan oleh penyedia sewa
+                      untuk menangani situasi tersebut.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <section class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-12 col-lg-3 mb-3">
+            <ul class="nav flex-column gap-2">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >binarcarrental@gmail.com</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >081-233-334-808</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg-2 mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-black">Our services</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-black">Why Us</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-black">Testimonial</a>
+              </li>
+              <li class="nav-item mb-2" id="faq">
+                <a href="#" class="nav-link p-0 text-black">FAQ</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg-4 py-2">
+            <h6 class="text-body-emphasis">Connect with us</h6>
+            <div class="d-flex gap-3">
+              <img
+                src="./public/assets/img/icon_facebook.svg"
+                alt="Icon Faceboook"
+              />
+              <img
+                src="./public/assets/img/icon_instagram.svg"
+                alt="Icon Instagram"
+              />
+              <img
+                src="./public/assets/img/icon_twitter.svg"
+                alt="Icon Twitter"
+              />
+              <img src="./public/assets/img/icon_mail.svg" alt="Icon Mail" />
+              <img
+                src="./public/assets/img/icon_twitch.svg"
+                alt="Icon Twitch"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 py-3 col-lg-3">
+            <h6>Copyright Binar 2022</h6>
+            <div>
+              <img
+                src="./public/assets/img/logo_rectangle.svg"
+                alt="Logo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
