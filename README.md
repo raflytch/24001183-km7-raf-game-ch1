@@ -2,7 +2,7 @@
 
 # Binar Academy Challenge Chapter 1
 
-## Deskripsi Proyek
+## Deskripsi Challenge
 
 Dalam challenge Chapter 1 ini, saya menggunakan Git untuk version control, membangun halaman web dengan HTML dan CSS sesuai desain, membuatnya responsif menggunakan Bootstrap, dan memastikan tampilannya konsisten dengan desain Figma.
 
