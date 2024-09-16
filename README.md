@@ -1,6 +1,6 @@
 # 24001183-km7-raf-game-ch1
 
-# Binar Academy Challenge Chapter 1
+# Rafly Aziz Abdillah - Binar Academy Challenge Chapter 1
 
 ## Deskripsi Challenge
 
